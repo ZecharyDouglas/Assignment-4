@@ -1,0 +1,45 @@
+.poster {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 1000px;
+}
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+@media screen and (max-width: 600px) {
+  .poster {
+    width: 50%;
+  }
+  body {
+    width: 50%;
+  }
+}
+.poster button {
+  background-color: crimson;
+  padding: 2px;
+  margin: 5px;
+  width: 20%;
+}
+
+#poster-img {
+  height: 200px;
+  width: 250px;
+}
+
+#poster-title {
+}
+
+#poster-quote {
+  margin: 5px;
+}
+
+#poster-form-quote {
+  margin: 5px;
+}
+
+#poster-form-author {
+  margin: 5px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Get Motivated!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="poster">
+      <h2 id="poster-title">Poster Title</h2>
+      <img
+        src="https://www.brainyquote.com/photos_tr/en/b/benjaminfranklin/138217/benjaminfranklin1-2x.jpg"
+        alt=""
+        class="poster-image"
+        width="600px"
+        height="300px"
+      />
+      <h3 id="poster-quote">Poster Quote</h3>
+      <h3 id="poster-author">Poster Author</h3>
+      <button onclick="randomizePosters()" id="randomize">Randomize</button>
+      <label for="poster-form-quote">Enter your Quote: </label>
+      <input id="poster-form-quote" type="text" />
+      <label for="poster-form-author">Enter your Name:</label>
+      <input id="poster-form-author" type="text" />
+      <button id="submit" onclick="submit">Submit</button>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
